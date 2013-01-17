@@ -7,7 +7,7 @@ public:
 	Atom(){};
 	Atom(int spin);
 	int getSpin(){ return spin; }
-	void setSpin(int spin) {this->spin = spin;}
+	void setSpin(int spin) { this->spin = spin; }
 
 private:
 	int spin;
